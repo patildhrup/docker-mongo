@@ -1,7 +1,6 @@
 FROM node:20-alpine
 
-ENV MONGO_DB_USERNAME=admin \
-    MONGO_DB_PWD=querty 
+ENV NODE_ENV=production
 
 WORKDIR /testapp
 
